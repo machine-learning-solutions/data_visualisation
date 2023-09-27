@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "data_visualization"
+version = "0.1.0"
+description = ""
+authors = ["Jad Abu Awwad <jadabuawwad@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9.5"
+numpy = "^1.21.3"
+pandas = "^1.3.4"
+sklearn = "^0.0"
+matplotlib = "^3.4.3"
+jupyterlab = "^3.2.1"
+seaborn = "^0.11.2"
+ipykernel = "^6.4.2"
+
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^4.0.1"
+ipython = "^7.28.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
